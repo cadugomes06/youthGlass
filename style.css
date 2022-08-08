@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Galada&family=Roboto:wght@300;400;500;700&display=swap');
 @import "./css/global/header.css";
 @import "./css/global/global.css";
+
 @import "./css/home/introducao.css";
+@import "./css/home/tecnologia.css";
+
 @import "./css/utilitarios/componentes.css";
 @import "./css/utilitarios/tipografia.css";
 @import "./css/utilitarios/cores.css";
+
 @import "./css/oculos/oculos-lista.css"
 
 
