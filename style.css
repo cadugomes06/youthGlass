@@ -3,5 +3,8 @@
 @import "./css/global/global.css";
 @import "./css/home/introducao.css";
 @import "./css/utilitarios/componentes.css";
+@import "./css/utilitarios/tipografia.css";
+@import "./css/utilitarios/cores.css";
+@import "./css/oculos/oculos-lista.css"
 
 

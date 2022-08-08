@@ -1,19 +1,12 @@
 
 .introducao-bg {
     background: #000000;
-    color: #ffffffff;
     box-shadow: inset 0 -40px #ffff;
   }
   .introducao {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px 40px;
-    max-width: 1300px;
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-left: auto;
-    padding-right: auto;
   }
   
   .introducao img {
@@ -27,21 +20,9 @@
   }
   .introducao h1{
     margin-bottom: 32px;
-    font-size: 64px;
-    line-height: 1.125;
-    font-family: 'Galada';
-    letter-spacing: 0.2rem;
-  }
-  .introducao h1 span{
-    color: #f404f9 ;
   }
   .introducao p{
     margin-bottom: 20px;
-    font-size: 24px;
-    line-height: 1.5;
-    color: #d8d8d8 ;
-    font-family: 'roboto';
-    font-weight: 400;
   }
   .introducao a {
     padding: 16px 32px;
