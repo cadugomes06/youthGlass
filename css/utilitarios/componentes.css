@@ -19,6 +19,15 @@
     font-weight: bold;
     font-family: 'roboto';
     font-weight: 600;
+    max-width: max-content;
+  }
+
+  .botao.secundario {
+    background: var(--cor-10);
+    color: var(--cor-0);
+  }
+  .botao.secundario:hover {
+    background: var(--cor-09);
   }
  
   .link {
