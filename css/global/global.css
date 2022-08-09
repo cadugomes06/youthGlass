@@ -12,7 +12,7 @@
     list-style: none;
   }
   
-  h1, ul, p {
+  h1, ul, p, blockquote {
     margin: 0px;
   } 
   
