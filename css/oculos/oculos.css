@@ -1,5 +1,5 @@
 .oculos-bg:nth-child(3) {
-    background: var(--cor-11);
+    background: linear-gradient(to right, white 20%, black 20%);
 }
 
 .oculos {
@@ -27,6 +27,7 @@
 .oculos-conteudo {
     display: grid;
     grid-template-columns: 1fr auto;
+    align-content: start;
 }
 
 .oculos h2,
@@ -63,4 +64,31 @@
 .oculos-conteudo img{
     width: 24px;
     margin-right: 8px;
+}
+
+@media (max-width: 800px) {
+    .oculos {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .oculos-conteudo {
+        grid-template-columns: 1fr;
+    }
+    .oculos ul {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 32px;
+        font-size: 1rem;
+    }
+    .oculos a {
+        place-self: start;
+    }
+    .oculos-bg:nth-child(3) {
+        background: black;
+    }
+    
 }
