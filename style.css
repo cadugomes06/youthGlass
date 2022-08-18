@@ -10,6 +10,7 @@
 @import "./css/utilitarios/componentes.css";
 @import "./css/utilitarios/tipografia.css";
 @import "./css/utilitarios/cores.css";
+@import "./css/utilitarios/formulario.css";
 
 @import "./css/oculos/oculos-lista.css";
 @import "./css/oculos/oculos.css";
@@ -20,6 +21,9 @@
 @import "./css/seguros/seguros.css";
 @import "./css/seguros/vantagens.css";
 @import "./css/seguros/perguntas.css";
+
+@import './css/contato/contato.css';
+@import './css/contato/lojas.css';
 
 @import './css/termos/termos.css'
 
