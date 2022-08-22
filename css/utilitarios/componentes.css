@@ -20,6 +20,8 @@
     font-family: 'roboto';
     font-weight: 600;
     max-width: max-content;
+    border: none;
+    cursor: pointer;
   }
 
   .botao.secundario {

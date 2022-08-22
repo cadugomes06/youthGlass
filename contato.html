@@ -51,7 +51,7 @@
                     </div>
                     <div>
                     <a><img src="/img/icones/telefone.svg" alt="telefone" />  55 22 9999-5555</a>
-                </div>
+                    </div>
                 </address>
                     <div class="contato-redes">
                         <a href="./">
@@ -68,35 +68,37 @@
             </section>
 
             <section class="contato-formulario" aria-label="Formulário">
+                <form class="form"  action="./contato.html">
                <div>
-                 <form class="form"  action="./contato.html">
                  <label for="nome">Nome</label>
-                 <input type="text" id="nome" name="nome" placeholder="seu nome"/>
+                 <input type="text" id="nome" name="nome"
+                  placeholder="seu nome"/>  
                 </div>
-                  <div>
-                    <form class="form"  action="./contato.html">
+
+                  <div>               
                     <label for="telefone">Telefone</label>
                     <input type="text" 
                     id="telefone" 
                     name="telefone" 
                     placeholder="(21)9999-5555"/>
                     </div>
-                    <div>
-                        <form class="form"  action="./contato.html">
+
+                    <div class="col-2">                
                         <label for="email">Email</label>
                         <input type="email" 
                         id="email" 
                         name="email" 
                         placeholder="exemplo@email.com"/>
                         </div>
-                        <div>
-                            <form class="form"  action="./contato.html">
+                        
+                        <div class="col-2">                   
                             <label for="mensagem">Mensagem</label>
                             <textarea rows="5"
                             id="mensagem" 
                             name="mensagem" 
                             ></textarea>
                             </div>
+                            <button class="botao col-2">Enviar Mensagem</button>
                </form>
             </section>
 
