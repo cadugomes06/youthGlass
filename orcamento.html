@@ -38,20 +38,37 @@
 
         <form class="orcamento container" accept="./">
             <div class="orcamento-produto">
+               
                 <h2 class="font-1-xs cor-5">YouthGlass ou Garantia?</h2>
 
-                <label for="youthglass">youthGlass</label>
                 <input type="radio" name="tipo" value="youthglass" id="youthglass" />
+                <label for="youthglass" class="tipos">youthGlass</label>
 
-                <label for="seguro">youthGlass</label>
                 <input type="radio" name="tipo" value="seguro" id="seguro" />
+                <label for="seguro">Garantia</label>
 
+            
                 <div class="orcamento-conteudo" id="orcamento-youthglass">
-                    <h2 class="font-1-l cor-0">Escolha o seu (youthGlass)</h2>
+                    <h2 class="font-1-xs cor-5">Escolha o seu</h2>
+
+                    <input type="radio" name="produto" value="scrillix" id="scrillix" />
+                    <label for="scrillix">Scrillix <span>R$ 199</span></label>
+
+                    <input type="radio" name="produto" value="soft-sight" id="soft-sight" />
+                    <label for="soft-sight">Soft-sight <span>R$ 249</span></label>
+
+                    <input type="radio" name="produto" value="evenning" id="evenning" />
+                    <label for="evenning">Evenning <span>R$ 199</span></label>
                 </div>
 
                 <div class="orcamento-conteudo" id="orcamento-seguro">
-                    <h2 class="font-1-l cor-0">Escolha o plano</h2>
+                    <h2 class="font-1-xs cor-5">Escolha o plano</h2>
+
+                    <input type="radio" name="produto" value="prata" id="prata" />
+                    <label for="prata">Prata <span>R$ 49</span></label>
+
+                    <input type="radio" name="produto" value="ouro" id="ouro" />
+                    <label for="ouro">Ouro <span>R$ 89</span></label>
                 </div>
             </div>
 
