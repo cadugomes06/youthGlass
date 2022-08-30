@@ -114,8 +114,6 @@
     box-shadow: 0 0 0 2px var(--cor-p1);
 }
 
-
-
 .orcamento-dados {
     border-radius: 0 5px 5px 0;
     background: var(--cor-0);
@@ -135,3 +133,49 @@
  display: grid;
  gap: 20px;
 }
+
+.orcamento-detalhes {
+    display: none;
+    background: var(--cor-0);
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.orcamento-detalhes li {
+    display: flex;
+    align-items: center;
+    margin-bottom:  8px;
+}
+
+.orcamento-detalhes li img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.orcamento-produto input:checked + label + .orcamento-detalhes {
+    display: grid;
+    transition: .5s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+    .orcamento-produto,
+    .orcamento-dados {
+        padding: 32px;
+    }
+}
+
+@media (max-width: 800px) {
+    .orcamento {
+        grid-template-columns: 1fr;
+    }
+    .orcamento-produto {
+        border-radius: 5px 5px 0 0;
+    }
+    .orcamento-dados {
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+
