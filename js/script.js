@@ -1,4 +1,4 @@
-//ativar links do Menu
+//ativar linkss do Menu
 const links = document.querySelectorAll('.header-menu a')
 
 function ativarLink(link) {
@@ -20,11 +20,9 @@ function ativarProduto(parametros) {
         element.checked = true
     }
 }
-
 parametros.forEach((ativarProduto))
 
 //perguntas frequentes
-
 const perguntas = document.querySelectorAll(".perguntas button")
 
 function ativarPergunta(event) {
@@ -40,5 +38,20 @@ function ativarPergunta(event) {
 function eventosPergunta(pergunta) {
     pergunta.addEventListener('click', ativarPergunta)
 }
-
 perguntas.forEach(eventosPergunta)
+
+
+
+// Galeria de óculos
+const galeria = document.querySelectorAll('.oculos-imagens img')
+const galeriaContainer = document.querySelector('.oculos-imagens')
+
+function trocarImagem(event) {
+    const img = event.currentTarget
+    galeriaContainer.prepend(img)
+    console.log(img)
+}
+
+galeria.forEach((img) => {
+    img.addEventListener('click', trocarImagem)
+})
